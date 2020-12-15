@@ -36,6 +36,6 @@ python3 -m pytest -s api_tests.py::APITester::test_api_response_contact_info
 
 To run suites:
 
-python3 -m pytest -s api_tests
+python3 -m pytest -s api_tests.py
 
 Please see sample output in output/output.txt.

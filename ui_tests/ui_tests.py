@@ -72,16 +72,6 @@ class InputFormsCheck(unittest.TestCase):
         self.driver.find_element_by_link_text('United Brands').click()
         self.assertTrue(self.driver.find_element(By.XPATH, "//B[text()='Customer Details']"))
 
-    def save_button(self):
-        # Save button
-        time.sleep(2)
-        self.driver.find_element(By.CSS_SELECTOR, FormLocators.save_button).click()
-        time.sleep(10)
-
-    def handle_pop_up(self):
-        self.driver.find_element(By.XPATH, FormLocators.back_button_pop_up).click()
-        time.sleep(5)
-
     def check_exists_by_xpath(self, ui_element):
         try:
             self.driver.find_element(By.XPATH, ui_element)
