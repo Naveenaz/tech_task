@@ -1,0 +1,220 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.8.3, pytest-5.2.2, py-1.8.0, pluggy-0.13.0
+rootdir: /Users/naveenzunjaharwad/hopin_test/tech_task/api_tests
+plugins: html-2.0.0, metadata-1.8.0
+collected 3 items
+
+api_tests.py ('{"name":"qa_engineer_exam_app_backend","timestamp":"Tue Dec 15 '
+ '2020","customers":[{"id":1,"name":"Americas '
+ 'Inc.","employees":10,"contactInfo":{"name":"John '
+ 'Smith","email":"jsmith@americasinc.com"},"size":"Small"},{"id":2,"name":"Caribian '
+ 'Airlnis","employees":1000,"contactInfo":{"name":"Jose '
+ 'Martinez","email":"martines@cair.com"},"size":"Big"},{"id":3,"name":"MacroSoft","employees":540,"contactInfo":{"name":"Bill '
+ 'Paxton","email":"bp@ms.com"},"size":"Medium"},{"id":4,"name":"United '
+ 'Brands","employees":20,"size":"Small"},{"id":5,"name":"Bananas '
+ 'Corp","employees":10000,"contactInfo":{"name":"Xavier '
+ 'Hernandez","email":"xavier@bananas.com"},"size":"Big"},{"id":6,"name":"XPTO.com","employees":102,"contactInfo":{"name":"Daniel '
+ 'Zuck","email":"zuckh@xpto.com"},"size":"Medium"}]}')
+200
+.('{"name":"qa_engineer_exam_app_backend","timestamp":"Tue Dec 15 '
+ '2020","customers":[{"id":1,"name":"Americas '
+ 'Inc.","employees":10,"contactInfo":{"name":"John '
+ 'Smith","email":"jsmith@americasinc.com"},"size":"Small"},{"id":2,"name":"Caribian '
+ 'Airlnis","employees":1000,"contactInfo":{"name":"Jose '
+ 'Martinez","email":"martines@cair.com"},"size":"Big"},{"id":3,"name":"MacroSoft","employees":540,"contactInfo":{"name":"Bill '
+ 'Paxton","email":"bp@ms.com"},"size":"Medium"},{"id":4,"name":"United '
+ 'Brands","employees":20,"size":"Small"},{"id":5,"name":"Bananas '
+ 'Corp","employees":10000,"contactInfo":{"name":"Xavier '
+ 'Hernandez","email":"xavier@bananas.com"},"size":"Big"},{"id":6,"name":"XPTO.com","employees":102,"contactInfo":{"name":"Daniel '
+ 'Zuck","email":"zuckh@xpto.com"},"size":"Medium"}]}')
+200
+{'customers': [{'contactInfo': {'email': 'jsmith@americasinc.com',
+                                'name': 'John Smith'},
+                'employees': 10,
+                'id': 1,
+                'name': 'Americas Inc.',
+                'size': 'Small'},
+               {'contactInfo': {'email': 'martines@cair.com',
+                                'name': 'Jose Martinez'},
+                'employees': 1000,
+                'id': 2,
+                'name': 'Caribian Airlnis',
+                'size': 'Big'},
+               {'contactInfo': {'email': 'bp@ms.com', 'name': 'Bill Paxton'},
+                'employees': 540,
+                'id': 3,
+                'name': 'MacroSoft',
+                'size': 'Medium'},
+               {'employees': 20,
+                'id': 4,
+                'name': 'United Brands',
+                'size': 'Small'},
+               {'contactInfo': {'email': 'xavier@bananas.com',
+                                'name': 'Xavier Hernandez'},
+                'employees': 10000,
+                'id': 5,
+                'name': 'Bananas Corp',
+                'size': 'Big'},
+               {'contactInfo': {'email': 'zuckh@xpto.com',
+                                'name': 'Daniel Zuck'},
+                'employees': 102,
+                'id': 6,
+                'name': 'XPTO.com',
+                'size': 'Medium'}],
+ 'name': 'qa_engineer_exam_app_backend',
+ 'timestamp': 'Tue Dec 15 2020'}
+Americas Inc.
+{'name': 'John Smith', 'email': 'jsmith@americasinc.com'}
+Caribian Airlnis
+{'name': 'Jose Martinez', 'email': 'martines@cair.com'}
+MacroSoft
+{'name': 'Bill Paxton', 'email': 'bp@ms.com'}
+United Brands
+F('{"name":"qa_engineer_exam_app_backend","timestamp":"Tue Dec 15 '
+ '2020","customers":[{"id":1,"name":"Americas '
+ 'Inc.","employees":10,"contactInfo":{"name":"John '
+ 'Smith","email":"jsmith@americasinc.com"},"size":"Small"},{"id":2,"name":"Caribian '
+ 'Airlnis","employees":1000,"contactInfo":{"name":"Jose '
+ 'Martinez","email":"martines@cair.com"},"size":"Big"},{"id":3,"name":"MacroSoft","employees":540,"contactInfo":{"name":"Bill '
+ 'Paxton","email":"bp@ms.com"},"size":"Medium"},{"id":4,"name":"United '
+ 'Brands","employees":20,"size":"Small"},{"id":5,"name":"Bananas '
+ 'Corp","employees":10000,"contactInfo":{"name":"Xavier '
+ 'Hernandez","email":"xavier@bananas.com"},"size":"Big"},{"id":6,"name":"XPTO.com","employees":102,"contactInfo":{"name":"Daniel '
+ 'Zuck","email":"zuckh@xpto.com"},"size":"Medium"}]}')
+200
+{'customers': [{'contactInfo': {'email': 'jsmith@americasinc.com',
+                                'name': 'John Smith'},
+                'employees': 10,
+                'id': 1,
+                'name': 'Americas Inc.',
+                'size': 'Small'},
+               {'contactInfo': {'email': 'martines@cair.com',
+                                'name': 'Jose Martinez'},
+                'employees': 1000,
+                'id': 2,
+                'name': 'Caribian Airlnis',
+                'size': 'Big'},
+               {'contactInfo': {'email': 'bp@ms.com', 'name': 'Bill Paxton'},
+                'employees': 540,
+                'id': 3,
+                'name': 'MacroSoft',
+                'size': 'Medium'},
+               {'employees': 20,
+                'id': 4,
+                'name': 'United Brands',
+                'size': 'Small'},
+               {'contactInfo': {'email': 'xavier@bananas.com',
+                                'name': 'Xavier Hernandez'},
+                'employees': 10000,
+                'id': 5,
+                'name': 'Bananas Corp',
+                'size': 'Big'},
+               {'contactInfo': {'email': 'zuckh@xpto.com',
+                                'name': 'Daniel Zuck'},
+                'employees': 102,
+                'id': 6,
+                'name': 'XPTO.com',
+                'size': 'Medium'}],
+ 'name': 'qa_engineer_exam_app_backend',
+ 'timestamp': 'Tue Dec 15 2020'}
+Americas Inc.
+10
+Small
+Caribian Airlnis
+1000
+Big
+MacroSoft
+540
+Medium
+United Brands
+20
+Small
+Bananas Corp
+10000
+Big
+XPTO.com
+102
+Medium
+F
+
+=================================== FAILURES ===================================
+___________________ APITester.test_api_response_contact_info ___________________
+
+self = <api_tests.APITester testMethod=test_api_response_contact_info>
+
+    def test_api_response_contact_info(self):
+        response = requests.request("POST", self.endpoint, json=self.api_payload, timeout=10)
+        self.assertRegex(str(response.status_code), "20[0-2]")
+        pprint(response.text)
+        pprint(response.status_code)
+        json_data = json.loads(response.text)
+        pprint(json_data)
+    
+        for customer in json_data['customers']:
+            print(customer['name'])
+            try:
+>               print(customer['contactInfo'])
+E               KeyError: 'contactInfo'
+
+api_tests.py:31: KeyError
+
+During handling of the above exception, another exception occurred:
+
+self = <api_tests.APITester testMethod=test_api_response_contact_info>
+
+    def test_api_response_contact_info(self):
+        response = requests.request("POST", self.endpoint, json=self.api_payload, timeout=10)
+        self.assertRegex(str(response.status_code), "20[0-2]")
+        pprint(response.text)
+        pprint(response.status_code)
+        json_data = json.loads(response.text)
+        pprint(json_data)
+    
+        for customer in json_data['customers']:
+            print(customer['name'])
+            try:
+                print(customer['contactInfo'])
+            except KeyError:
+>               self.fail('contactInfo is missing for ' + customer['name'])
+E               AssertionError: contactInfo is missing for United Brands
+
+api_tests.py:33: AssertionError
+_______________________ APITester.test_api_response_size _______________________
+
+self = <api_tests.APITester testMethod=test_api_response_size>
+
+    def test_api_response_size(self):
+        response = requests.request("POST", self.endpoint, json=self.api_payload, timeout=10)
+        self.assertRegex(str(response.status_code), "20[0-2]")
+        pprint(response.text)
+        pprint(response.status_code)
+        json_data = json.loads(response.text)
+        pprint(json_data)
+    
+        failed_tests = []
+    
+        for customer in json_data['customers']:
+            print(customer['name'])
+            print(customer['employees'])
+            print(customer['size'])
+    
+            if customer['employees'] <= 10:
+                if customer['size'] != 'Small':
+                    failed_tests.append(customer['name'])
+                #self.assertEqual('Small', customer['size'], 'Expected size is not correct for ' + customer['name'])
+            elif customer['employees'] <= 1000:
+                if customer['size'] != 'Medium':
+                    failed_tests.append(customer['name'])
+                #self.assertEqual('Medium', customer['size'], 'Expected size is not correct for ' + customer['name'])
+            elif customer['employees'] > 1000:
+                #self.assertEqual('Big', customer['size'], 'Expected size is not correct for ' + customer['name'])
+                if customer['size'] != 'Big':
+                    failed_tests.append(customer['name'])
+            else:
+                pass
+    
+>       self.assertEqual(0, len(failed_tests), 'Size do not match spec for these ' + str(failed_tests))
+E       AssertionError: 0 != 2 : Size do not match spec for these ['Caribian Airlnis', 'United Brands']
+
+api_tests.py:66: AssertionError
+========================= 2 failed, 1 passed in 0.13s ==========================
