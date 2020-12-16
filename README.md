@@ -55,3 +55,6 @@ python3 -m pytest -s api_tests.py
 ```
 
 Please see sample output in api_tests/output/output.txt.
+
+
+#### Note: I have setup workflows. They need URL/software working on the host before testing. Also, might need to adjust the path of test file. ####
